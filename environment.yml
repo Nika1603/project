@@ -1,0 +1,14 @@
+name: pizzeria_tests
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - selenium
+      - pytest
+      - pytest-allure-adaptor
+      - allure-pytest
+      - allure-python-commons
+      - webdriver-manager
+      - flake8

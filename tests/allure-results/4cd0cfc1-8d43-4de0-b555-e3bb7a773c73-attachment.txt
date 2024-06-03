@@ -1,0 +1,2 @@
+[INFO][2024-06-01 18:08:07,075][test_basket] Opening page: https://pizzeria.skillbox.cc/
+[INFO][2024-06-01 18:08:07,846][test_basket] Found 0 pizza images on the page

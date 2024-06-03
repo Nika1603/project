@@ -1,0 +1,151 @@
+[INFO][2024-06-01 17:30:07,843][test_basket] Открытие страницы: https://pizzeria.skillbox.cc/
+[INFO][2024-06-01 17:30:08,659][test_basket] Поиск кнопки 'В корзину' для пиццы
+[ERROR][2024-06-01 17:30:08,665][test_basket] Ошибка в тесте: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product__buy button"}
+  (Session info: chrome=125.0.6422.113); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001031b64c8 chromedriver + 4302024
+1   chromedriver                        0x00000001031aee10 chromedriver + 4271632
+2   chromedriver                        0x0000000102de019c chromedriver + 278940
+3   chromedriver                        0x0000000102e222c4 chromedriver + 549572
+4   chromedriver                        0x0000000102e5ac5c chromedriver + 781404
+5   chromedriver                        0x0000000102e17004 chromedriver + 503812
+6   chromedriver                        0x0000000102e179ec chromedriver + 506348
+7   chromedriver                        0x000000010317e510 chromedriver + 4072720
+8   chromedriver                        0x0000000103182fbc chromedriver + 4091836
+9   chromedriver                        0x0000000103165754 chromedriver + 3970900
+10  chromedriver                        0x00000001031838a4 chromedriver + 4094116
+11  chromedriver                        0x00000001031586d4 chromedriver + 3917524
+12  chromedriver                        0x00000001031a0b08 chromedriver + 4213512
+13  chromedriver                        0x00000001031a0c84 chromedriver + 4213892
+14  chromedriver                        0x00000001031aea08 chromedriver + 4270600
+15  libsystem_pthread.dylib             0x000000019e236f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e231d34 thread_start + 8
+
+[INFO][2024-06-01 17:38:45,902][test_basket] Открытие страницы: https://pizzeria.skillbox.cc/
+[INFO][2024-06-01 17:38:46,685][test_basket] Поиск кнопки 'В корзину' для пиццы
+[ERROR][2024-06-01 17:38:46,692][test_basket] Ошибка в тесте: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product__buy button"}
+  (Session info: chrome=125.0.6422.113); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100f0a4c8 chromedriver + 4302024
+1   chromedriver                        0x0000000100f02e10 chromedriver + 4271632
+2   chromedriver                        0x0000000100b3419c chromedriver + 278940
+3   chromedriver                        0x0000000100b762c4 chromedriver + 549572
+4   chromedriver                        0x0000000100baec5c chromedriver + 781404
+5   chromedriver                        0x0000000100b6b004 chromedriver + 503812
+6   chromedriver                        0x0000000100b6b9ec chromedriver + 506348
+7   chromedriver                        0x0000000100ed2510 chromedriver + 4072720
+8   chromedriver                        0x0000000100ed6fbc chromedriver + 4091836
+9   chromedriver                        0x0000000100eb9754 chromedriver + 3970900
+10  chromedriver                        0x0000000100ed78a4 chromedriver + 4094116
+11  chromedriver                        0x0000000100eac6d4 chromedriver + 3917524
+12  chromedriver                        0x0000000100ef4b08 chromedriver + 4213512
+13  chromedriver                        0x0000000100ef4c84 chromedriver + 4213892
+14  chromedriver                        0x0000000100f02a08 chromedriver + 4270600
+15  libsystem_pthread.dylib             0x000000019e236f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e231d34 thread_start + 8
+
+[INFO][2024-06-01 17:40:22,950][test_basket] Открытие страницы: https://pizzeria.skillbox.cc/
+[INFO][2024-06-01 17:40:23,635][test_basket] Поиск кнопки 'В корзину' для пиццы
+[ERROR][2024-06-01 17:40:23,641][test_basket] Ошибка в тесте: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product__buy button"}
+  (Session info: chrome=125.0.6422.113); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001008424c8 chromedriver + 4302024
+1   chromedriver                        0x000000010083ae10 chromedriver + 4271632
+2   chromedriver                        0x000000010046c19c chromedriver + 278940
+3   chromedriver                        0x00000001004ae2c4 chromedriver + 549572
+4   chromedriver                        0x00000001004e6c5c chromedriver + 781404
+5   chromedriver                        0x00000001004a3004 chromedriver + 503812
+6   chromedriver                        0x00000001004a39ec chromedriver + 506348
+7   chromedriver                        0x000000010080a510 chromedriver + 4072720
+8   chromedriver                        0x000000010080efbc chromedriver + 4091836
+9   chromedriver                        0x00000001007f1754 chromedriver + 3970900
+10  chromedriver                        0x000000010080f8a4 chromedriver + 4094116
+11  chromedriver                        0x00000001007e46d4 chromedriver + 3917524
+12  chromedriver                        0x000000010082cb08 chromedriver + 4213512
+13  chromedriver                        0x000000010082cc84 chromedriver + 4213892
+14  chromedriver                        0x000000010083aa08 chromedriver + 4270600
+15  libsystem_pthread.dylib             0x000000019e236f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e231d34 thread_start + 8
+
+[INFO][2024-06-01 17:46:41,007][test_basket] Открытие страницы: https://pizzeria.skillbox.cc/
+[ERROR][2024-06-01 17:46:41,512][test_basket] Ошибка в тесте: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product__buy"}
+  (Session info: chrome=125.0.6422.113); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001007e24c8 chromedriver + 4302024
+1   chromedriver                        0x00000001007dae10 chromedriver + 4271632
+2   chromedriver                        0x000000010040c19c chromedriver + 278940
+3   chromedriver                        0x000000010044e2c4 chromedriver + 549572
+4   chromedriver                        0x0000000100486c5c chromedriver + 781404
+5   chromedriver                        0x0000000100443004 chromedriver + 503812
+6   chromedriver                        0x00000001004439ec chromedriver + 506348
+7   chromedriver                        0x00000001007aa510 chromedriver + 4072720
+8   chromedriver                        0x00000001007aefbc chromedriver + 4091836
+9   chromedriver                        0x0000000100791754 chromedriver + 3970900
+10  chromedriver                        0x00000001007af8a4 chromedriver + 4094116
+11  chromedriver                        0x00000001007846d4 chromedriver + 3917524
+12  chromedriver                        0x00000001007ccb08 chromedriver + 4213512
+13  chromedriver                        0x00000001007ccc84 chromedriver + 4213892
+14  chromedriver                        0x00000001007daa08 chromedriver + 4270600
+15  libsystem_pthread.dylib             0x000000019e236f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e231d34 thread_start + 8
+
+[INFO][2024-06-01 17:49:38,272][test_basket] Открытие страницы: https://pizzeria.skillbox.cc/
+[ERROR][2024-06-01 17:49:38,773][test_basket] Ошибка в тесте: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product__buy"}
+  (Session info: chrome=125.0.6422.113); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102a2a4c8 chromedriver + 4302024
+1   chromedriver                        0x0000000102a22e10 chromedriver + 4271632
+2   chromedriver                        0x000000010265419c chromedriver + 278940
+3   chromedriver                        0x00000001026962c4 chromedriver + 549572
+4   chromedriver                        0x00000001026cec5c chromedriver + 781404
+5   chromedriver                        0x000000010268b004 chromedriver + 503812
+6   chromedriver                        0x000000010268b9ec chromedriver + 506348
+7   chromedriver                        0x00000001029f2510 chromedriver + 4072720
+8   chromedriver                        0x00000001029f6fbc chromedriver + 4091836
+9   chromedriver                        0x00000001029d9754 chromedriver + 3970900
+10  chromedriver                        0x00000001029f78a4 chromedriver + 4094116
+11  chromedriver                        0x00000001029cc6d4 chromedriver + 3917524
+12  chromedriver                        0x0000000102a14b08 chromedriver + 4213512
+13  chromedriver                        0x0000000102a14c84 chromedriver + 4213892
+14  chromedriver                        0x0000000102a22a08 chromedriver + 4270600
+15  libsystem_pthread.dylib             0x000000019e236f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e231d34 thread_start + 8
+
+[INFO][2024-06-01 18:08:07,075][test_basket] Opening page: https://pizzeria.skillbox.cc/
+[INFO][2024-06-01 18:08:07,846][test_basket] Found 0 pizza images on the page
+[INFO][2024-06-01 18:16:02,623][test_basket] Opening page: https://pizzeria.skillbox.cc/
+[INFO][2024-06-01 18:16:03,342][test_basket] Found 0 pizza images on the page
+[INFO][2024-06-01 18:16:03,342][test_basket] Opening cart page: https://pizzeria.skillbox.cc/cart/
+[ERROR][2024-06-01 18:16:03,697][test_basket] Error in the test: Пицца не найдена в корзине
+assert 0 > 0
+ +  where 0 = len([])
+[INFO][2024-06-01 18:21:10,050][test_basket] Opening page: https://pizzeria.skillbox.cc/
+[INFO][2024-06-01 18:21:10,863][test_basket] Pizza image found on the page
+[ERROR][2024-06-01 18:21:11,151][test_basket] Error in the test: Message: no such element: Unable to locate element: {"method":"css selector","selector":".button.product_type_simple.add_to_cart_button"}
+  (Session info: chrome=125.0.6422.113); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001025c64c8 chromedriver + 4302024
+1   chromedriver                        0x00000001025bee10 chromedriver + 4271632
+2   chromedriver                        0x00000001021f019c chromedriver + 278940
+3   chromedriver                        0x00000001022322c4 chromedriver + 549572
+4   chromedriver                        0x000000010222885c chromedriver + 510044
+5   chromedriver                        0x000000010226ac5c chromedriver + 781404
+6   chromedriver                        0x0000000102227004 chromedriver + 503812
+7   chromedriver                        0x00000001022279ec chromedriver + 506348
+8   chromedriver                        0x000000010258e510 chromedriver + 4072720
+9   chromedriver                        0x0000000102592fbc chromedriver + 4091836
+10  chromedriver                        0x0000000102575754 chromedriver + 3970900
+11  chromedriver                        0x00000001025938a4 chromedriver + 4094116
+12  chromedriver                        0x00000001025686d4 chromedriver + 3917524
+13  chromedriver                        0x00000001025b0b08 chromedriver + 4213512
+14  chromedriver                        0x00000001025b0c84 chromedriver + 4213892
+15  chromedriver                        0x00000001025bea08 chromedriver + 4270600
+16  libsystem_pthread.dylib             0x000000019e236f94 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019e231d34 thread_start + 8
+
+[INFO][2024-06-01 18:22:24,700][test_basket] Opening page: https://pizzeria.skillbox.cc/
+[INFO][2024-06-01 18:22:25,380][test_basket] Found 0 pizza images on the page
+[INFO][2024-06-01 18:22:25,380][test_basket] Opening cart page: https://pizzeria.skillbox.cc/cart/
+[ERROR][2024-06-01 18:22:25,745][test_basket] Error in the test: Пицца не найдена в корзине
+assert 0 > 0
+ +  where 0 = len([])

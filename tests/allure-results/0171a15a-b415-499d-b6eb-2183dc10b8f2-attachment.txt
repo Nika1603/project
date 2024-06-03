@@ -1,0 +1,6 @@
+[INFO][2024-06-01 18:22:24,700][test_basket] Opening page: https://pizzeria.skillbox.cc/
+[INFO][2024-06-01 18:22:25,380][test_basket] Found 0 pizza images on the page
+[INFO][2024-06-01 18:22:25,380][test_basket] Opening cart page: https://pizzeria.skillbox.cc/cart/
+[ERROR][2024-06-01 18:22:25,745][test_basket] Error in the test: Пицца не найдена в корзине
+assert 0 > 0
+ +  where 0 = len([])

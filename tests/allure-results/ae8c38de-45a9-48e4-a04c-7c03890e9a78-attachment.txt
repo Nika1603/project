@@ -1,0 +1,2 @@
+INFO     test_basket:test_basket.py:25 Opening page: https://pizzeria.skillbox.cc/
+INFO     test_basket:test_basket.py:30 Found 0 pizza images on the page

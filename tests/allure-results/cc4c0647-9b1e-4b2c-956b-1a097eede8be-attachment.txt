@@ -1,0 +1,6 @@
+INFO     test_basket:test_basket.py:25 Opening page: https://pizzeria.skillbox.cc/
+INFO     test_basket:test_basket.py:30 Found 0 pizza images on the page
+INFO     test_basket:test_basket.py:43 Opening cart page: https://pizzeria.skillbox.cc/cart/
+ERROR    test_basket:test_basket.py:54 Error in the test: Пицца не найдена в корзине
+assert 0 > 0
+ +  where 0 = len([])

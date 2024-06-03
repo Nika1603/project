@@ -1,0 +1,24 @@
+[INFO][2024-06-01 18:21:10,050][test_basket] Opening page: https://pizzeria.skillbox.cc/
+[INFO][2024-06-01 18:21:10,863][test_basket] Pizza image found on the page
+[ERROR][2024-06-01 18:21:11,151][test_basket] Error in the test: Message: no such element: Unable to locate element: {"method":"css selector","selector":".button.product_type_simple.add_to_cart_button"}
+  (Session info: chrome=125.0.6422.113); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001025c64c8 chromedriver + 4302024
+1   chromedriver                        0x00000001025bee10 chromedriver + 4271632
+2   chromedriver                        0x00000001021f019c chromedriver + 278940
+3   chromedriver                        0x00000001022322c4 chromedriver + 549572
+4   chromedriver                        0x000000010222885c chromedriver + 510044
+5   chromedriver                        0x000000010226ac5c chromedriver + 781404
+6   chromedriver                        0x0000000102227004 chromedriver + 503812
+7   chromedriver                        0x00000001022279ec chromedriver + 506348
+8   chromedriver                        0x000000010258e510 chromedriver + 4072720
+9   chromedriver                        0x0000000102592fbc chromedriver + 4091836
+10  chromedriver                        0x0000000102575754 chromedriver + 3970900
+11  chromedriver                        0x00000001025938a4 chromedriver + 4094116
+12  chromedriver                        0x00000001025686d4 chromedriver + 3917524
+13  chromedriver                        0x00000001025b0b08 chromedriver + 4213512
+14  chromedriver                        0x00000001025b0c84 chromedriver + 4213892
+15  chromedriver                        0x00000001025bea08 chromedriver + 4270600
+16  libsystem_pthread.dylib             0x000000019e236f94 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019e231d34 thread_start + 8
+

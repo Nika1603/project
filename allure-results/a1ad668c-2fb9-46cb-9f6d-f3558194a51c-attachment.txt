@@ -1,0 +1,3 @@
+[32mINFO    [0m test_slider:test_slider.py:24 Открытие страницы: https://pizzeria.skillbox.cc/
+[32mINFO    [0m test_slider:test_slider.py:30 Поиск элемента слайдера с пиццами
+[32mINFO    [0m test_slider:test_slider.py:35 Слайдер с пиццами отображается на главной странице
