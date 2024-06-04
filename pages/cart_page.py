@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 import random
 
+
 class CartPage:
     def __init__(self, driver):
         self.driver = driver
@@ -22,7 +23,7 @@ class CartPage:
 
     def get_order_total(self):
         order_total_element = self.driver.find_element(*self.order_total_locator)
-        return float(order_total_element.text.strip('$'))
+        return float(order_total_element.text.strip("$"))
 
     def get_available_items(self):
         return self.driver.find_elements(By.CLASS_NAME, "product-item")
@@ -48,4 +49,3 @@ class CartPage:
         order_total = self.get_order_total()
         expected_total = order_total * (1 - discount_percent / 100)
         return round(expected_total, 2) == round(self.get_order_total(), 2)
-

@@ -5,11 +5,13 @@ import time
 import random
 import allure
 
+
 @pytest.fixture(scope="module")
 def driver():
     driver = webdriver.Chrome()
     yield driver
     driver.quit()
+
 
 @allure.feature("Remove from Cart")
 @allure.story("Add and remove random item from cart")
@@ -25,7 +27,9 @@ def test_add_and_remove_random_item_from_cart(driver):
     with allure.step("Add random item to cart"):
         products = driver.find_elements(By.CLASS_NAME, "product")
         random_product = random.choice(products)
-        add_to_cart_button = random_product.find_element(By.CLASS_NAME, "add_to_cart_button")
+        add_to_cart_button = random_product.find_element(
+            By.CLASS_NAME, "add_to_cart_button"
+        )
         add_to_cart_button.click()
         time.sleep(2)
 
@@ -41,5 +45,7 @@ def test_add_and_remove_random_item_from_cart(driver):
 
     with allure.step("Verify cart is empty"):
         empty_cart_message = driver.find_element(By.CSS_SELECTOR, ".cart-empty")
-        assert empty_cart_message.is_displayed(), "Корзина не пуста, товар не был удален"
+        assert (
+            empty_cart_message.is_displayed()
+        ), "Корзина не пуста, товар не был удален"
         time.sleep(2)

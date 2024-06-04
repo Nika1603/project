@@ -3,17 +3,19 @@ import allure
 from selenium import webdriver
 from pages.my_account_page import MyAccountPage
 
+
 @pytest.fixture
 def driver():
     driver = webdriver.Chrome()
     yield driver
     driver.quit()
 
-@allure.feature('User Registration')
+
+@allure.feature("User Registration")
 class TestUserRegistration:
 
-    @allure.story('Register a new user')
-    @allure.step('Register a new user with valid details')
+    @allure.story("Register a new user")
+    @allure.step("Register a new user with valid details")
     def test_register_new_user(self, driver):
         my_account_page = MyAccountPage(driver)
         my_account_page.open_my_account_page()
@@ -26,6 +28,6 @@ class TestUserRegistration:
         my_account_page.register_new_user(username, email, password)
 
         confirmation_message = my_account_page.get_registration_confirmation()
-        assert "Thank you for registering" in confirmation_message, "Регистрация не была успешной"
-
-
+        assert (
+            "Thank you for registering" in confirmation_message
+        ), "Регистрация не была успешной"

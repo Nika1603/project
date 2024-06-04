@@ -4,6 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
 import logging
 
+
 class MainPage:
     URL = "https://pizzeria.skillbox.cc/"
 
@@ -17,7 +18,9 @@ class MainPage:
 
     def click_on_pizza_image(self):
         self.logger.info("Ожидание загрузки главной страницы")
-        WebDriverWait(self.driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        WebDriverWait(self.driver, 30).until(
+            lambda d: d.execute_script("return document.readyState") == "complete"
+        )
 
         self.logger.info("Ожидание видимости изображения пиццы в слайдере")
         pizza_image = WebDriverWait(self.driver, 30).until(

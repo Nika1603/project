@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 class MyAccountPage:
     URL = "http://pizzeria.skillbox.cc/my-account/"
 
@@ -20,13 +21,17 @@ class MyAccountPage:
         username_field.send_keys(username)
         password_field.send_keys(password)
 
-        login_button = self.driver.find_element(By.CSS_SELECTOR, "button.woocommerce-button")
+        login_button = self.driver.find_element(
+            By.CSS_SELECTOR, "button.woocommerce-button"
+        )
         login_button.click()
 
     def is_user_logged_in(self):
         try:
             WebDriverWait(self.driver, 10).until(
-                EC.visibility_of_element_located((By.CSS_SELECTOR, ".woocommerce-MyAccount-content"))
+                EC.visibility_of_element_located(
+                    (By.CSS_SELECTOR, ".woocommerce-MyAccount-content")
+                )
             )
             return True
         except:

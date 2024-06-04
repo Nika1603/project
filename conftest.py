@@ -1,6 +1,7 @@
 import pytest
 from selenium import webdriver
 
+
 @pytest.fixture(scope="session")
 def driver():
     # Инициализируем экземпляр WebDriver (например, Chrome, Firefox)
